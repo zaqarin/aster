@@ -11,4 +11,4 @@ def ssh_file_transfer(address, username, password, remote_path, local_path):
     client.close()
 
 # Example usage
-ssh_file_transfer("46.173.211.90", "zakarin", "ZakariN2016", "C://autosoft/avtosemk.ade", "C://Users/s.zakarin/Desktop/avtosemk.ade")
+ssh_file_transfer("host", "username", "password", "path to ade file")
